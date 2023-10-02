@@ -1,0 +1,100 @@
+html body{
+    margin: 0;
+    padding: 0;
+    overflow-x:hidden;
+    font-family: "Roboto";
+}
+
+.navbar{
+    height: 10vh;
+    background-color: #fc9e1c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2vh;
+}
+
+.logo{
+    margin-left: 15%;
+    font-weight: bold;
+}
+
+.menu{
+    margin-right: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.marge{
+    padding-left: 3vh;
+}
+
+.gris{
+    color: grey;
+}
+
+.presentation{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-right: 16%;
+    margin-left: 16%;
+    margin-bottom: 3vh;
+}
+
+.rectangle{
+    height: 32vh;
+    width: 30vh;
+    border: 1px solid grey;
+    border-radius: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.any{
+    visibility: hidden;
+}
+
+.icone{
+    background-image: url("burger-image.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 18vh;
+    width: 18vh;
+    margin-bottom: 1vh;
+}
+
+.nom{
+    margin-bottom: 1vh;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.description{
+    margin-bottom: 1vh;
+}
+
+.here{
+    margin-bottom: 1vh;
+}
+
+.available{
+    background-color: green;
+    border-radius: 30px;
+    border: none;
+}
+
+.white{
+    color: white;
+}
+
+.here{
+    background-color: #fc9e1c;
+    height: 4vh;
+    width: 8vh;
+    border-radius: 5px;
+    border: none;
+}
